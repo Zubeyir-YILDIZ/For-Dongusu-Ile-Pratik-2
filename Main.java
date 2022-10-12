@@ -10,7 +10,7 @@ public class Main
             System.out.print("Bir değer girin: "); girilenDeger=input.nextInt();
             anahtar=girilenDeger%2!=0;
 
-            if(girilenDeger%4==0)
+            if(girilenDeger%4==0)  // 4 ün katları zaten çifttir % 2 kontrolüne gerek yoktur
                 toplam+=girilenDeger;
 
 
